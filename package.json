@@ -1,0 +1,42 @@
+{
+  "name": "dockerfiles",
+  "version": "1.0.0",
+  "description": "A production-ready example of dockerfiles for node.js",
+  "private": true,
+  "author": "Christopher Enytc <chris@hashlab.com.br>",
+  "license": "MIT",
+  "homepage": "https://github.com/hashlab/dockerfiles#readme",
+  "bugs": {
+    "url": "https://github.com/hashlab/dockerfiles/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hashlab/dockerfiles.git"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "lint": "script/lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "restify": "6.3.4",
+    "bunyan": "1.8.12",
+    "bluebird": "3.5.1"
+  },
+  "devDependencies": {
+    "eslint": "4.9.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.4.0",
+    "eslint-plugin-promise": "3.6.0",
+    "prettier": "1.10.2"
+  },
+  "keywords": [
+    "nodejs",
+    "dockerfiles",
+    "javascript",
+    "production-ready"
+  ]
+}
